@@ -1,0 +1,20 @@
+{
+    "vms_path": "<path to folder with VMs>",
+    "vmware_app_paths": {
+        "vmware_path": "<path to VMware application folder>",
+        "vmrun_path": "<path to vmrun application>"
+    },
+    "guest_paths": {
+        "guest_mal_path_exe": "C:\\<malwarename>.exe",
+        "guest_mal_path_dll": "C:\\<malwarename>.dll",
+        "guest_debug_path_win": "C:\\<debug stub name>.exe"
+    },
+    "guest_creds": {
+        "guest_win_user": "<username>",
+        "guest_win_pass": "<password>"
+    },
+    "guest_network_config": {
+        "guest_ip": "<guest IP address>",
+        "guest_debug_port": <debug stub port>
+    }
+}
