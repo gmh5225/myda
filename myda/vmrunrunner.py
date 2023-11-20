@@ -82,8 +82,6 @@ def vmrun_it(vm, vm_cmd):
         debug_type = "win32"
         guest_debug_path = guest_debug_path_win
 
-    # set debug params
-
     match vm_cmd:
         case "vm_vmware_start":
             print("Starting VMWare...")
